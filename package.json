@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "fs": "^0.0.1-security",
+    "jspdf": "^2.5.1",
+    "ml-matrix": "^6.11.0",
+    "munkres-js": "^1.2.2",
+    "svg2pdf.js": "^2.2.3",
+    "wkhtmltopdf": "^0.4.0"
+  }
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.0.0/d3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/canvg/1.5/canvg.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/canvg/3.0.7/umd.min.js"></script>
+
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="interface/style.css">
+    <script defer type="module" src="interface/script.js"></script>
+
+<body>
+    <header>
+        <h1 id="fileTitle">Comparison of Confusion Matrices Project</h1>
+        <div class="center">
+            <select class="button" id="fileSelector"></select>
+            <script src="config.js"></script>
+
+            <select class="button" id="visSelector">
+                <option value="vis1">Visualisation 1</option>
+                <option value="vis2">Visualisation 2</option>
+                <option value="vis3">Visualisation 3</option>
+                <option value="vis4">Visualisation 4</option>
+            </select>
+
+            <select class="button" id="sort">
+                <option value="json">Sort as in JSON file</option>
+                <option value="flas">Sort by Munkres Algorithm</option>
+            </select>
+
+            <select class="button" id="normalize">
+                <option value="false">Show Numbers</option>
+                <option value="true">Show Ratio</option>
+            </select>
+
+            <input type="color" id="colorPicker" value="#004C8C" style="display: none;">
+            <label for="colorPicker" class="button">Change Color</label>
+
+            <button id="changePerRow" class="button">Change Matrices/Row</button>
+            <button id="download" class="button">Export Matrices</button>
+        </div>
+    </header>
+    <div id="confusion-matrices"></div>
+    <div id="legend"></div>
+    <footer>
+        <div class="footer-content">
+            <p>Project by Students of ENSEIRB-MATMECA for LaBRI.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

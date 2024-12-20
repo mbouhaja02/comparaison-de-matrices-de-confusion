@@ -1,0 +1,68 @@
+{
+    "class_names": [
+        0,
+        1
+    ],
+    "confusion_matrices": {
+        "LogisticRegression": [
+            [
+                71053,
+                29
+            ],
+            [
+                38,
+                82
+            ]
+        ],
+        "DecisionTreeClassifier": [
+            [
+                71052,
+                30
+            ],
+            [
+                27,
+                93
+            ]
+        ],
+        "RandomForestClassifier": [
+            [
+                71076,
+                6
+            ],
+            [
+                25,
+                95
+            ]
+        ],
+        "KNeighborsClassifier": [
+            [
+                71081,
+                1
+            ],
+            [
+                115,
+                5
+            ]
+        ],
+        "MLPClassifier": [
+            [
+                71074,
+                8
+            ],
+            [
+                98,
+                22
+            ]
+        ],
+        "SVC": [
+            [
+                71082,
+                0
+            ],
+            [
+                120,
+                0
+            ]
+        ]
+    }
+}
